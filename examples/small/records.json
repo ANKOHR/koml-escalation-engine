@@ -1,0 +1,66 @@
+{
+  "synthetic": true,
+  "entered_by": "fixture-generator",
+  "as_of": "2026-09-30",
+  "policy": {
+    "retry_limit": 3,
+    "amount_limit_minor": 1000
+  },
+  "records": [
+    {
+      "id": "g0-00",
+      "description": "SYNTHETIC fixture task",
+      "created_on": "2026-09-01",
+      "due_on": "2026-10-01",
+      "status": "active",
+      "approval_required": false,
+      "retries": 0,
+      "amount_minor": 100,
+      "expected_escalation": false
+    },
+    {
+      "id": "g1-00",
+      "description": "SYNTHETIC fixture task",
+      "created_on": "2026-09-01",
+      "due_on": "2026-10-01",
+      "status": "active",
+      "approval_required": true,
+      "retries": 0,
+      "amount_minor": 100,
+      "expected_escalation": true
+    },
+    {
+      "id": "g2-00",
+      "description": "SYNTHETIC fixture task",
+      "created_on": "2026-09-01",
+      "due_on": "2026-10-01",
+      "status": "blocked",
+      "approval_required": false,
+      "retries": 0,
+      "amount_minor": 100,
+      "expected_escalation": true
+    },
+    {
+      "id": "g3-00",
+      "description": "SYNTHETIC fixture task",
+      "created_on": "2026-09-01",
+      "due_on": "2026-09-29",
+      "status": "active",
+      "approval_required": false,
+      "retries": 0,
+      "amount_minor": 100,
+      "expected_escalation": true
+    },
+    {
+      "id": "g7-00",
+      "description": "SYNTHETIC fixture task",
+      "created_on": "2026-09-01",
+      "due_on": "2026-09-29",
+      "status": "completed",
+      "approval_required": true,
+      "retries": 3,
+      "amount_minor": 1001,
+      "expected_escalation": false
+    }
+  ]
+}

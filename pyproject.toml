@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koml-escalation-engine"
+version = "0.1.0"
+description = "Deterministic human intervention decisions from explicit inputs"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+kee = "koml_escalation_engine.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["koml_escalation_engine*"]
