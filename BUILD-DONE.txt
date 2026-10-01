@@ -1,0 +1,5 @@
+Test count: 32 passing (python -m pytest -q).
+Local implementation commit hash: b465a63fa4287d43667bc7d2b519ff39c16adcb7
+This hash identifies the tested implementation and evidence; the following documentation commit adds this completion record.
+
+Built a CPU-only, offline, deterministic Python kee CLI with fixtures, run, report, triage and explain commands, pure validated escalation rules, 200 labelled synthetic records with an independent hand-computed oracle, and a five-record example. Markdown and JSON reports include source provenance, record facts, reconciled counts and an explicit refusal to claim unmeasured savings. Saved results are recomputed before reporting. All 32 tests passed and the installed executable completed the fixture demo in 0.592691 seconds. README, lessons, measured evidence and the fourteen-day improvement hook are recorded. Build verdict is maintain as portfolio evidence; the post-trial verdict remains pending actual use. No publishing or external network calls were performed.
